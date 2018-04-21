@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: sans-serif;
+  width: 100%;
+  display: flex;
+}
+
+aside {
+  color: #fff;
+  width: 30rem;
+  flex: 0 0 auto;
+  background-color: #34495e;
+}
+
+aside li a {
+  color: #ecf0f1;
+}
+
+aside li a:hover {
+  color: #bdc3c7;
+}
+
+main {
+  height: 100vh;
+  flex: 1 1 auto;
+  overflow: auto;
+}
+
+main li a {
+  color: #6a8079;
+}
+
+main li a:hover {
+  text-decoration: underline;
+}
+
+
+h1 {
+  font-size: 3em;
+  margin: 10px;
+  font-family: 'Limelight', cursive;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 5px;
+}
+
+main h2 {
+  display: inline;
+  font-family: 'Jua', sans-serif;
+}
+
+main .titulo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+h3 {
+  display: inline;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 1.3em;
+  color: #1d2321;
+}
+
+h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+}
+
+main ul {
+  margin-bottom: 15px;
+}
+
+
+ul li {
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.dimensionar {
+  width: 30px;
+  height: 30px;
+}
+
+.hearthstone {
+  width: 40px;
+  height: 40px;
+}
+
+main p {
+  line-height: 1.2em;
+  color: #6a8079;
+}
+
+article {
+  margin: 30px 20px;
+  padding: 10px;
+  border-bottom: 1px solid #beb5d9;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 50px;
+}
